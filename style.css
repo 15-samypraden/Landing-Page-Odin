@@ -1,0 +1,158 @@
+body{
+    font-family: 'roboto';
+}
+
+.header, .signup, .intro, button{
+    color: #F9FAF8;
+}
+
+.header, .intro, footer{
+    background-color: #1F2937;
+}
+
+a, .intro p, footer{
+    color: #E5E7EB;
+}
+
+.header, .header ul, .intro, .intro .img, .imgs, .signup{
+    display: flex;
+}
+
+.content, .intro div, .image, .quote{
+    display: flex;
+    flex-flow: column wrap;
+}
+
+button, .signup{
+    background-color: #3882F6;
+}
+
+.intro, .intro div, .quote, .signup, .signup button{
+    flex: 1 1 0;
+}
+
+.header{
+    align-items: baseline;
+    margin: -0.5rem -0.5rem 0rem -0.5rem;
+    padding: 0rem 10rem;
+}
+
+.header h1{
+    margin-right: auto;
+    font-size: 1.5rem;
+}
+
+.header ul{
+    list-style-type: none;
+    gap: 15px;
+    font-size: 18px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.intro{
+    gap: 2rem;
+    padding: 3rem 10rem;
+    margin: 0rem -0.5rem 0rem -0.5rem;
+}
+
+.intro p{
+    font-size: 18px;
+}
+
+.intro span{
+    font-size: 3rem;
+    font-weight:bolder;
+    color: #F9FAF8;
+}
+
+.intro .img{
+    justify-content: center;
+    align-items: center;
+    flex: 1.25 1 0;
+    background-color: rgb(97, 105, 105);
+}
+
+button{
+    max-width: 6rem;
+    height: 2rem;
+    border-radius: 5px;
+    border-color: #1F2937;
+}
+
+.image{
+    align-items: center;
+    margin: 0rem -0.5rem;
+    padding: 0rem 0rem 5rem 0rem;
+}
+
+.image h2{
+    font-size: 2.25rem;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.imgs{
+    justify-content: space-between;
+    width: 55rem;
+}
+
+.info{
+    max-width: 10rem;
+    text-align: center;
+}
+
+.info div{
+    height: 10rem;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+} 
+
+figcaption{
+    color: grey;
+}
+
+.quote{
+    align-items: center;
+    padding: 5rem 15rem;
+    margin: 0rem -0.5rem;
+    background-color: #E5E7EB;
+    font-size: 2.25rem;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.quote span{
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin-left: 40rem;
+}
+
+.lastcont{
+    margin: 4rem -0.5rem;
+}
+
+.signup{
+    align-items: flex-end;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    max-width: 65rem;
+    margin: auto;
+    padding: 2rem 0rem;
+}
+
+.signup p{
+    margin: 0rem 0rem;
+}
+
+.signup button{
+    border: 1px solid #F9FAF8;
+}
+
+footer{
+    margin: 0rem -0.5rem -0.5rem -0.5rem;
+    padding: 1rem 0rem;
+    text-align: center;
+}
